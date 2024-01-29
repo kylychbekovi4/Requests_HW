@@ -1,0 +1,68 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border: 1px solid white;
+  box-shadow: 0 0 15px 0 purple;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px; 
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.father:hover {
+  background: #0f040f;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.select {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+.parrent_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.modal_open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.h1_h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid white;
+  gap: 10px;
+}
+
+.h1_h2:hover {
+  background: #0f040f;
+}
